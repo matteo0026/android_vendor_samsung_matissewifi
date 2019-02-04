@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/samsung/matissewifi/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/samsung/matissewifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/matissewifi/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/matissewifi/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/matissewifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/matissewifi/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -33,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/matissewifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/matissewifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/matissewifi/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -44,10 +44,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/matissewifi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
+    
